@@ -62,6 +62,15 @@ p {
   margin: 0;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: var(--space-xl) var(--space-md);
+}
+
 img,
 picture,
 svg {
