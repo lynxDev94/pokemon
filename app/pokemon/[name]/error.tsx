@@ -10,7 +10,7 @@ export default function PokemonError({ reset }: { error: Error; reset: () => voi
         <p className={styles.message}>
           We could not load that Pokémon right now. This is usually temporary.
         </p>
-        <button type="button" className={styles.retry} onClick={reset}>
+        <button type="button" className={styles.action} onClick={reset}>
           Try again
         </button>
       </div>
